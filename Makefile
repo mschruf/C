@@ -1,6 +1,6 @@
 CC = gcc
 CDEBUG = -g
-CWARNINGS = -Werror -Wall -Wextra -pedantic-errors -ansi
+CWARNINGS = -Werror -Wall -Wextra -pedantic-errors
 CDEFS = #-NDEBUG
 COPTS = -std=c99 #-O1
 CINCLUDES = #-Ilib
