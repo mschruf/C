@@ -4,7 +4,7 @@ CWARNINGS = -Werror -Wall -Wextra -pedantic-errors
 CDEFS = #-NDEBUG
 COPTS = -std=c99 #-O1
 CINCLUDES = #-Ilib
-CFLAGS = $(CDEBUG) $(CWARNINGS) $(CDEFS) $(COPTS) $(CINCLUDES)
+CFLAGS = $(CDEBUG) $(CWARNINGS) $(CDEFS) $(COPTS)
 
 LIB_MATH = -lm
 LDFLAGS = #-g
